@@ -1,0 +1,25 @@
+# Tests
+src/test/
+
+# IDE
+.idea/
+*.iml
+
+# Build output
+packaging/
+target/
+build/
+dist/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# Development tools
+.opencode/
+AGENTS.md
+%T%/
