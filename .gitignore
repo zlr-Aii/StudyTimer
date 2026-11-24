@@ -1,25 +1,24 @@
-# Tests
-src/test/
-
-# IDE
-.idea/
-*.iml
-
-# Build output
-packaging/
+# 构建输出（可重新生成，不入库）
 target/
 build/
 dist/
 
-# Eclipse
+# 打包用的 ffmpeg 体积约 100MB：本地放置即可，不入库
+# packaging/build-exe.ps1 检测到 packaging/ffmpeg/ffmpeg.exe 会自动一起打包
+packaging/ffmpeg/
+
+# IDE
+.idea/
+*.iml
+.vscode/
 .classpath
 .project
 .settings/
 
-# Logs
+# 日志
 *.log
 
-# Development tools
+# 本地开发工具与 AI 指令文件（每个人环境不同，不入库）
 .opencode/
 AGENTS.md
 %T%/
